@@ -1,3 +1,28 @@
+<script setup>
+import { ref, onMounted } from 'vue';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+onMounted(() => {
+  let tl = gsap.timeline();
+  tl.to('.welcome', {
+    y: 20,
+    duration: 3,
+  }).to('.welcome--login img', {
+    opacity: 1,
+  })
+  gsap.to('.cool--textcontent p', {
+    width: '360px',
+    ease: "steps(20)",
+    duration: 5,
+    repeat: -1,
+    repeatDelay: 1.5,
+  })
+  // document.addEventListener('scroll', (e) => {
+  //   console.log(window.scrollY);
+  // })
+});
+</script>
 <template>
   <div class="welcome">
     <ul>
@@ -56,6 +81,7 @@
 
 <style lang="scss" scoped>
 .welcome {
+  transform: translateY(100vh);
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -82,6 +108,7 @@
     width: 86px;
     height: 53px;
     margin-right: 42px;
+    opacity: 0;
   }
   ul {
     width: 220px;
@@ -138,6 +165,10 @@
     left: 675px;
     color: $color_secondary;
     -webkit-text-stroke: none;
+    //打字機效果
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
   }
 }
 
@@ -229,6 +260,6 @@
   line-height: 0;
   display: block;
   clear: both;
-  visibility: hidden; /*将元素隐藏起来*/
+  visibility: hidden;
 }
 </style>

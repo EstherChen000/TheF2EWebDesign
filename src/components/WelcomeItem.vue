@@ -30,7 +30,7 @@ onMounted(() => {
       <li>HI- 99999</li>
       <li>Hex School</li>
     </ul>
-    <img src="/src/assets/imgs/banner_LOGO 1.png"
+    <img src="/src/assets/imgs/banner_LOGO.png"
          alt="">
     <div class="welcome--login">
       <img src="/src/assets/imgs/chariot/戰車(俯).gif"
@@ -70,9 +70,9 @@ onMounted(() => {
     <div class="tree box">
       <p>動畫技能樹太雜無從下手...</p>
       <div class="tree--animation">
-        <img src="/src/assets/imgs/tree 1.png"
+        <img src="/src/assets/imgs/tree.png"
              alt="">
-        <img src="/src/assets/imgs/soldier 1.png"
+        <img src="/src/assets/imgs/soldier.png"
              alt="">
       </div>
     </div>

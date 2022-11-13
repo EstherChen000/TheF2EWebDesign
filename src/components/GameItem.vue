@@ -5,7 +5,7 @@
         區區修煉已經無法滿足了嗎？<br />
         還有比賽等著你！
       </h2>
-      <img src="/src/assets/imgs/Group 29.png"
+      <img src="/src/assets/imgs/Group29.png"
            alt="">
     </div>
     <div class="game--rule">

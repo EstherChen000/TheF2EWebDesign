@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+# Week1 - The F2E 活動網站設計
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Designer
 
-## Recommended IDE Setup
+[小菜](https://2022.thef2e.com/users/12061549261446456235)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Run
+
+```=
+npm install
+```
+
+```=
+npm run dev
+```
+
+## Use Technology & Library
+
+- Vue3
+- Vite
+- GSAP

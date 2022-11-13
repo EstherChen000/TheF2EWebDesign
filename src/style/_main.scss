@@ -7,3 +7,18 @@
 body {
     background-color: $color_black;
 }
+
+button {
+    background: #FFFFFF;
+    color: $color_primary;
+    font-family: Cubic_11;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+
+    &:hover {
+        box-shadow: -6px -6px $color_tertiary;
+        cursor: pointer;
+    }
+}
